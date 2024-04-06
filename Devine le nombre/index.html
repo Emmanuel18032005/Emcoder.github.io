@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="shourtcut icon" href="none">
+    <title>Devine le bon nombre</title>
+</head>
+<body>
+    <div class="nom_du_jeu">
+        <h1>Devine moi !</h1>
+    </div>
+    <div class="presentation">
+        <div class="but_du_jeu">
+            <h1>But du jeu:</h1>
+            <p>Le but du jeu est de deviner un nombre compris entre 0 et 100 générer par l'IA à travers des indices donnés à chaque mauvaises réponses jusqu'à trouvé le bon nombre. <br><br>Bonne chance!</p>
+        </div>
+        <div class="boutton_commencer">
+            <button class="boutton">Commencer</button>
+        </div>
+    </div>
+
+    <div class="jeu">
+        <div>
+            <h1 id="nom"></h1>
+        </div>
+        <div class="block_indice">
+            <h1 id="resultat">Devinez le nombre :)</h1>
+            <button id="essayer">Essayer</button>
+        </div>
+    </div>
+    <p class="signature">&copy; Emmanuel Bamidélé, Mars 2024 <br><br> <button id="btn">Recommencer</button></p>
+
+
+
+    <script src="script.js"></script>
+</body>
+</html>
